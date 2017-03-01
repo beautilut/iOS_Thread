@@ -10,14 +10,18 @@
 		9780A1C48A6C290BCFFC2975 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9780A08DA6BDD95C91ACD419 /* Info.plist */; };
 		9780A44F28D2233D96A9915E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9780AE0F89E3F423D82B79AF /* Assets.xcassets */; };
 		9780A46A1B4C7CE2C406D87D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9780AB659709618FAABC71EA /* LaunchScreen.storyboard */; };
+		9780A49427601FEA7A2CBCB2 /* BOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780A53586B181879CF63EFE /* BOperation.m */; };
 		9780A59FE79DE5FFB9A172FE /* iOS多线程UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780A39F84BD9FE0F70168F8 /* iOS多线程UITests.m */; };
 		9780A6EFECDEFE90BECA5195 /* iOS多线程Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780A41D708368CD82CBD777 /* iOS多线程Tests.m */; };
+		9780A73C8C0309D69EE75698 /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780AE15D4677D10EB4B0CF8 /* GCD.m */; };
 		9780A83E2987F47D7D766432 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780A62E398E102A39C672FD /* main.m */; };
 		9780A85C0D698975B82F4E6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780A3B974B7469559B947C4 /* AppDelegate.m */; };
 		9780A944DCF2694A3CA8B796 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9780A52223988A42FCB01738 /* Info.plist */; };
 		9780AAC70EFBF45CF78C5138 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9780A01A3C06C317F69BF36D /* Info.plist */; };
 		9780AE3EB62FFA5391E0673F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780A3AAC961FE824B18C0D3 /* ViewController.m */; };
 		9780AF07FC78C7C17A3F5A12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9780AACCB898194B10DBF517 /* Main.storyboard */; };
+		DB3614951E66628400084A12 /* BSwift_Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3614941E66628400084A12 /* BSwift_Operation.swift */; };
+		DB3614971E6677B000084A12 /* BSwift_gcd.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3614961E6677B000084A12 /* BSwift_gcd.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,17 +47,24 @@
 		9780A0A9842493CCA6255DD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9780A14BA4B6EF197503F8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9780A2AD4CA234BC0F83FAFE /* iOS多线程UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS多线程UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9780A314D9FA5BC49E663680 /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
 		9780A39F84BD9FE0F70168F8 /* iOS多线程UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS多线程UITests.m"; sourceTree = "<group>"; };
 		9780A3AAC961FE824B18C0D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9780A3B974B7469559B947C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9780A4043633F17799C62BEC /* iOS多线程Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS多线程Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9780A41D708368CD82CBD777 /* iOS多线程Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS多线程Tests.m"; sourceTree = "<group>"; };
 		9780A52223988A42FCB01738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		9780A53586B181879CF63EFE /* BOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOperation.m; sourceTree = "<group>"; };
 		9780A62E398E102A39C672FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9780A70341E6174F5B649E51 /* iOS多线程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS多线程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9780AC6431FDB41022E6BC37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9780ACF71ADDCB2B4E080570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9780AE0F89E3F423D82B79AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9780AE15D4677D10EB4B0CF8 /* GCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD.m; sourceTree = "<group>"; };
+		9780AE917310E50D7E71005B /* BOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOperation.h; sourceTree = "<group>"; };
+		DB3614931E66628400084A12 /* iOS多线程-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS多线程-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB3614941E66628400084A12 /* BSwift_Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSwift_Operation.swift; sourceTree = "<group>"; };
+		DB3614961E6677B000084A12 /* BSwift_gcd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSwift_gcd.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +104,13 @@
 				9780AACCB898194B10DBF517 /* Main.storyboard */,
 				9780AC6431FDB41022E6BC37 /* ViewController.h */,
 				9780A3AAC961FE824B18C0D3 /* ViewController.m */,
+				9780A314D9FA5BC49E663680 /* GCD.h */,
+				9780AE15D4677D10EB4B0CF8 /* GCD.m */,
+				9780AE917310E50D7E71005B /* BOperation.h */,
+				9780A53586B181879CF63EFE /* BOperation.m */,
+				DB3614941E66628400084A12 /* BSwift_Operation.swift */,
+				DB3614961E6677B000084A12 /* BSwift_gcd.swift */,
+				DB3614931E66628400084A12 /* iOS多线程-Bridging-Header.h */,
 			);
 			path = "iOS多线程";
 			sourceTree = "<group>";
@@ -206,6 +224,11 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = "___Beautilut___";
+				TargetAttributes = {
+					9780A8AC3F5FAB23515FB5BC = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = 9780A0321995514D551DF012 /* Build configuration list for PBXProject "iOS多线程" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -270,8 +293,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9780A83E2987F47D7D766432 /* main.m in Sources */,
+				DB3614971E6677B000084A12 /* BSwift_gcd.swift in Sources */,
 				9780A85C0D698975B82F4E6D /* AppDelegate.m in Sources */,
+				DB3614951E66628400084A12 /* BSwift_Operation.swift in Sources */,
 				9780AE3EB62FFA5391E0673F /* ViewController.m in Sources */,
+				9780A73C8C0309D69EE75698 /* GCD.m in Sources */,
+				9780A49427601FEA7A2CBCB2 /* BOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +348,7 @@
 		9780A16080FA4296947E2507 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS多线程.app/iOS多线程";
 				INFOPLIST_FILE = "iOS多线程Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -381,6 +409,7 @@
 		9780A6B9381DC292296401A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "iOS多线程UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.beautilut.iOS多线程UITests";
@@ -393,10 +422,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "iOS多线程/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.beautilut.iOS多线程";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS多线程/iOS多线程-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -445,6 +478,7 @@
 		9780ADE1253C4C769A86B908 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "iOS多线程UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.beautilut.iOS多线程UITests";
@@ -456,6 +490,7 @@
 		9780AE142FFAA3F5BE0F0611 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS多线程.app/iOS多线程";
 				INFOPLIST_FILE = "iOS多线程Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -469,10 +504,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "iOS多线程/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.beautilut.iOS多线程";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS多线程/iOS多线程-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -495,6 +533,7 @@
 				9780AE142FFAA3F5BE0F0611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9780AA4BC48583609D3B77BE /* Build configuration list for PBXNativeTarget "iOS多线程" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +542,7 @@
 				9780AE8ACC95CA2C8DE249E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9780AD0C80CF23A281227698 /* Build configuration list for PBXNativeTarget "iOS多线程UITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +551,7 @@
 				9780ADE1253C4C769A86B908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
